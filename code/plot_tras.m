@@ -12,9 +12,9 @@ set(get(handle(gcf),'JavaFrame'),'Maximized',true);
 f=getframe(gcf);
 imind=frame2im(f);
 [imind,cm] = rgb2ind(imind,256);
-imwrite(imind,cm,'pic_alpha.gif','gif', 'Loopcount',inf,'DelayTime',1);
+imwrite(imind,cm,'pic_sigma.gif','gif', 'Loopcount',inf,'DelayTime',1);
 
-for k=1:kmax
+for k=1:50
     obj = gmdistribution(m((k-1)*2+1:k*2,:)',diag([1 1]),max(w(k,:),0.001*ones(1,length(wk))));
     Fun=@(x,y)pdf(obj,[x y]);
     PDFj=reshape(Fun(reshape(X,num_surf/2*num_surf,1),reshape(Y,num_surf/2*num_surf,1)),num_surf/2,num_surf);
@@ -46,7 +46,7 @@ for k=1:kmax
     f=getframe(gcf);
     imind=frame2im(f);
     [imind,cm] = rgb2ind(imind,256);
-    imwrite(imind,cm,'pic_alpha.gif','gif','WriteMode','append','DelayTime',1);
+    imwrite(imind,cm,'pic_sigma.gif','gif','WriteMode','append','DelayTime',1);
 end
 
 %%

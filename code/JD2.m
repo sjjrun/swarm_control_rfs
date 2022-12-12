@@ -36,7 +36,7 @@ for i=1:size(hmx,2)
     c3=c3+wk(i)*wd(sigma(i))*((hmx(:,i)-md(:,sigma(i)))'/(diag(pk(:,i))+diag(pd(:,j)))*(hmx(:,i)-md(:,sigma(i)))-log((2*pi)^(size(hmx,1)/2)*(det(diag(pk(:,i))+diag(pd(:,j))))^(1/2)));
 end
 
-jd1=200*c1-400*c2+0.04*c3;
-% jd1=200*c1-400*c2;
+% jd1=200*c1-400*c2+0.04*c3;
+jd1=200*c1-400*c2;
 
 end
