@@ -26,7 +26,7 @@ This repository contains:
 > In the RFS-based control, the swarms modeled by GM are shown in [figure](#gm), which is a visualization of GM model distribution. The swarms are composed of 4 sub-swarms, which including 100 agents showed by red points. When multiple sub-swarms have similar distribution, they will be merged into a sub-swarm to reduce computation.
 
 ### ![GM](picture/pic_gm.png)
-> Each sub-swarm can choose a main node to calculate the control law of this sub-swarm, avoiding redundant resource consump-tion. The network structure of swarms is demonstrated in [figure](#topology).
+> Each sub-swarm can choose a main node to calculate the control law of this sub-swarm, avoiding redundant resource consumption. The network structure of swarms is demonstrated in [figure](#topology).
 
 ### ![Topology](picture/pic_net.png)
 > The main node conducts distributed MPC to find the feasible
@@ -67,11 +67,13 @@ $ plot_*.m
 
 > Swarm trajectories with cost function $D_{\alpha}$
  ![](picture/pic_alpha.gif)
+ ![](picture/pic_traa2.gif)
  Cost value of $D_{\alpha}$
  ![](picture/pic_costa.gif)
 
 > Swarm trajectories with cost function $D_{\sigma}$
  ![](picture/pic_sigma.gif)
+ ![](picture/pic_tras2.gif)
  Cost value of $D_{\sigma}$
  ![](picture/pic_costs.gif)
 
