@@ -68,12 +68,14 @@ $ plot_*.m
 > Swarm trajectories with cost function $D_{\alpha}$
  ![](picture/pic_alpha.gif)
  ![](picture/pic_traa2.gif)
+ 
  Cost value of $D_{\alpha}$
  ![](picture/pic_costa.gif)
 
 > Swarm trajectories with cost function $D_{\sigma}$
  ![](picture/pic_sigma.gif)
  ![](picture/pic_tras2.gif)
+ 
  Cost value of $D_{\sigma}$
  ![](picture/pic_costs.gif)
 
