@@ -38,7 +38,7 @@ swarms control framework based on RFS formulation is demonstrated as [figure](#c
 
 ## Code Description
 ```sh
-$ main.m(uploading)
+$ main.m
 # The initial conditions are setted, such as swarms states, obstacle and toppology.
 # The main loop of swarm control are conducted.
 ```
