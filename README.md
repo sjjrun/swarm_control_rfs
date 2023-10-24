@@ -95,6 +95,8 @@ $ plot_*.m
 
 [2] Thomas, R. W. & Larson, J. D. Receding Horizon Extended Linear Quadratic Regulator for RFS-Based Swarms With Target Planning and Automatic Cost Function Scaling. IEEE Transactions Control Netw Syst 8, 566–575 (2020).
 
+[3] Sun, Jianjun, et al. "Distributed Large-Scale Swarm Control in Obstacle Environment Based on Random Finite Set Theory." IEEE Transactions on Aerospace and Electronic Systems (2023), doi: 10.1109/TAES.2023.3294481.
+
 This work is inspired by [Dr.He](https://scholar.google.com/citations?user=ngDBADkAAAAJ&hl=zh-CN&oi=ao) and [brycedoerr/SwarmRFSControl](https://github.com/brycedoerr/SwarmRFSControl)
 
 
